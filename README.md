@@ -1,2 +1,2 @@
 # h4ckthebox_acad
-beginner friendly hackthebox roadmap and guide
+Beginner friendly hackthebox academy roadmap and guide for beginner penetration tester.
