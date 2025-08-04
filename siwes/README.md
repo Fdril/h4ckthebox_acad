@@ -19,8 +19,8 @@
 | Week 17 | Network Pentesting (Internal & External)          |
 | Week 18 | Buffer Overflows & Binary Exploitation            |
 | Week 19 | Linux & Windows System Hardening                  |
-| Week 20 | Threat Intelligence & Malware Analysis            |
-| Week 21 | Digital Forensics & Incident Response             |
-| Week 22 | Reporting & Documentation (Professional Practice) |
-| Week 23 | Final Project / Real-World Simulation             |
-| Week 24 | Conclusion, Reflections, & Lessons Learned        |
+| Week 20 |       |
+| Week 21 |       |
+| Week 22 |       |
+| Week 23 |       |
+| Week 24 |       |
