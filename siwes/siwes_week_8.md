@@ -1,4 +1,4 @@
-🗓️ Week 8: Web Application Attacks (OWASP Top 10 – Part 2)
+🗓️ Week 8: Web Application Attacks (OWASP Top 10 – Part 2)  
 Day 1 – Security Misconfiguration (A05:2021)
 
     Task: Discover and exploit security misconfigurations in a lab.
