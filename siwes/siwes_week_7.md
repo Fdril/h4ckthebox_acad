@@ -1,4 +1,4 @@
-🗓️ Week 7: Web Application Attacks (OWASP Top 10 – Part 1)
+🗓️ Week 7: Web Application Attacks (OWASP Top 10 – Part 1)\
 Day 1 – Introduction to OWASP Top 10
 
     Task: Understand the purpose and structure of OWASP Top 10.
