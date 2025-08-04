@@ -1,6 +1,5 @@
-🗓️ Week 1: Orientation & Company Introduction
+🗓️ Week 1: Orientation & Company Introduction\
 
-Based on: https://www.dataslid.com.ng/about
 Day 1 - Introduction & Onboarding
 
     Task: Introduction to the company and the SIWES program
