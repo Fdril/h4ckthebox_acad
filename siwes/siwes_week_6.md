@@ -1,4 +1,4 @@
-🗓️ Week 6: Vulnerability Scanning & Mapping
+🗓️ Week 6: Vulnerability Scanning & Mapping\
 Day 1 – Introduction to Vulnerability Assessment
 
     Task: Understand what vulnerability scanning is and why it’s important.
