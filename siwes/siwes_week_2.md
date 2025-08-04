@@ -1,4 +1,4 @@
-🗓️ Week 2: Cybersecurity Fundamentals
+🗓️ Week 2: Cybersecurity Fundamentals\
 Day 1 – Introduction to Information Security (InfoSec)
 
     Task: Understand the fundamentals of InfoSec
