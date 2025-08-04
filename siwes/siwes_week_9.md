@@ -1,30 +1,31 @@
-🗓️ Week 9: Linux Essentials for Cybersecurity
-Day 1 – Linux Command Line Basics
+🗓️ Week 9 – Exploitation Techniques (Web, OS, Network)
+Day 1 – Introduction to Exploitation
 
-    Task: Practice basic Linux commands and navigation.
+    Task: Learn the fundamentals of system and application exploitation.
 
-    Description: I worked on understanding the Linux file system hierarchy and practiced commands like ls, cd, pwd, cp, mv, and rm. I also explored command chaining and redirection using pipes (|) and >, <.
+    Description: I studied how attackers exploit software bugs, insecure configurations, or poor validation logic to gain unauthorized access. I reviewed CVEs and how exploits are created and shared.
 
-Day 2 – File and Directory Permissions
+Day 2 – Web Exploitation (XSS, File Upload, LFI, SSTI)
 
-    Task: Understand file permissions and user roles.
+    Task: Practice web exploit techniques in vulnerable applications.
 
-    Description: I learned how Linux handles file permissions, ownership (chown), and access rights (chmod). I practiced changing file permissions and examined SUID, SGID, and sticky bits in real-world security contexts.
+    Description: I exploited flaws like Cross-Site Scripting (XSS), Local File Inclusion (LFI), Unrestricted File Upload, and Server-Side Template Injection (SSTI) using DVWA and PortSwigger Labs.
 
-Day 3 – Process and Service Management
+Day 3 – OS Exploitation (Linux & Windows)
 
-    Task: Monitor and manage system processes and services.
+    Task: Simulate exploiting vulnerable services on operating systems.
 
-    Description: I studied system resource usage using ps, top, htop, kill, and nice. I also learned how to manage services with systemctl, view logs in /var/log, and identify suspicious or malicious processes.
+    Description: I used Metasploit, Searchsploit, and manual techniques to exploit OS vulnerabilities like outdated Samba, EternalBlue, and SSH misconfigurations. I practiced post-exploit enumeration.
 
-Day 4 – User Management and Shell Scripting
+Day 4 – Network Exploitation
 
-    Task: Create users and write simple bash scripts.
+    Task: Identify and exploit weaknesses in network services.
 
-    Description: I practiced creating/deleting users and assigning groups. I then wrote simple bash scripts to automate repetitive tasks such as backups and scanning directories for changes.
+    Description: I scanned for open services (FTP, SMB, RDP) and tested for common exploits such as SMBv1, FTP anonymous login, and RCE on network devices. I used tools like Nmap NSE, CrackMapExec, and Netcat.
 
-Day 5 – File Searching, Networking, and Logs
+Day 5 – Custom Exploit Development (Intro)
 
-    Task: Search files and understand basic networking in Linux.
+    Task: Understand the basics of writing exploits.
 
-    Description: I used tools like grep, find, and locate for efficient searching. I practiced using ifconfig, netstat, ss, and ping for basic networking. I explored log files to identify login attempts and anomalies.
+    Description: I studied the structure of exploits and how to create simple buffer overflow scripts using Python. I also used ExploitDB to analyze exploit PoCs and modified them for basic use in test environments.
+
