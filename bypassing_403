@@ -1,0 +1,38 @@
+bypassing 403 status code.
+
+Great! To start bypassing a 403 response, first try simple variations like changing the HTTP method from GET to POST or HEAD using curl or a tool like Burp Suite. Sometimes servers block GET but allow others.
+
+Next, try modifying headers—set a different User-Agent to mimic a browser or add a Referer header from the same site. Some servers block requests without these headers.
+
+You can also try URL encoding parts of the URL or double encoding characters like slashes (%2F) to bypass filters.
+
+Another approach is to test for directory traversal by adding sequences like ../ or ..%2F in the URL to access restricted directories.
+
+____________________________________________________________________________
+Perfect, since you have authorization, let's walk through a structured approach to bypassing a 403 HTTP response using common techniques and tools.
+
+Start with curl for quick tests. For example, try changing the HTTP method from GET to POST or HEAD:
+
+```bash
+curl -X POST http://10.129.235.190/target-path
+curl -I http://10.129.235.190/target-path
+```
+
+Next, modify headers to mimic a browser or add a referer:
+
+```bash
+curl -H "User-Agent: Mozilla/5.0" -H "Referer: http://10.129.235.190" http://10.129.235.190/target-path
+```
+
+Try URL encoding parts of the URL to bypass filters:
+
+```bash
+curl http://10.129.235.190/%74%61%72%67%65%74%2d%70%61%74%68
+```
+
+For more advanced testing, use Burp Suite. Set it up as a proxy for your browser, then intercept the request that returns 403. You can then modify the method, headers, or URL encoding on the fly and resend the request to see if you can bypass the restriction.
+
+Also, test directory traversal by appending sequences like `../` or encoded versions `%2e%2e%2f` to the URL path in Burp or curl.
+
+____________________________________________________________________________
+

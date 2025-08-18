@@ -1,0 +1,41 @@
+Processed,ID,Req. Timestamp,Method,URL,Code,Reason,RTT,Size Resp. Header,Size Resp. Body,Highest Alert,Note,Tags
+Out of Scope,23,Fri Apr 25 15:54:36 WAT 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=fingerprinting-protection-overrides&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,24,Fri Apr 25 15:54:36 WAT 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=query-stripping&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,25,Fri Apr 25 15:54:37 WAT 2025,POST,https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=128.7&pver=2.2,403,Forbidden,0,130,40,,false,
+Processed,26,Fri Apr 25 15:54:38 WAT 2025,GET,http://nifetrends.vercel.app/4085537642803794773,308,Permanent Redirect,568,204,14,,false,
+Processed,27,Fri Apr 25 15:54:38 WAT 2025,GET,https://nifetrends.vercel.app/4085537642803794773,200,OK,267,536,591,Medium,false,Script
+Out of Scope,28,Fri Apr 25 15:54:39 WAT 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=partitioning-exempt-urls&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,29,Fri Apr 25 15:54:39 WAT 2025,GET,https://nifetrends.vercel.app/assets/index-B3TRo-CP.css,200,OK,282,545,31696,Medium,false,
+Processed,30,Fri Apr 25 15:54:39 WAT 2025,GET,https://nifetrends.vercel.app/assets/index-ByTW5phP.js,200,OK,1175,559,404325,Medium,false,"Form, Script, Comment"
+Processed,31,Fri Apr 25 15:54:39 WAT 2025,GET,https://checkout.flutterwave.com/v3.js,200,OK,1289,499,32366,Low,false,Comment
+Out of Scope,33,Fri Apr 25 15:54:40 WAT 2025,GET,https://checkout-v3-ui-prod.f4b-flutterwave.com/,403,Forbidden,0,130,40,,false,
+Processed,34,Fri Apr 25 15:54:39 WAT 2025,GET,https://js.paystack.co/v1/inline.js,200,OK,1542,1007,31518,Low,false,"Hidden, SetCookie"
+Out of Scope,37,Fri Apr 25 15:54:40 WAT 2025,GET,https://nifetrends.onrender.com/api/product/list,403,Forbidden,0,130,40,,false,
+Processed,38,Fri Apr 25 15:54:40 WAT 2025,GET,https://nifetrends.vercel.app/assets/lol-DRqJDnHx.png,200,OK,302,528,6962,Medium,false,
+Out of Scope,39,Fri Apr 25 15:54:41 WAT 2025,GET,https://checkout.paystack.com/popup,403,Forbidden,0,130,40,,false,
+Processed,40,Fri Apr 25 15:54:41 WAT 2025,GET,https://nifetrends.vercel.app/vite.svg,200,OK,249,524,1497,Medium,false,
+Processed,41,Fri Apr 25 15:54:41 WAT 2025,GET,https://paystack.com/public/css/button.min.css,403,Forbidden,1035,1887,7939,Medium,false,"Script, SetCookie"
+Processed,45,Fri Apr 25 15:54:42 WAT 2025,GET,https://nifetrends.vercel.app/4085537642803794773,200,OK,271,536,591,Medium,false,Script
+Processed,46,Fri Apr 25 15:54:43 WAT 2025,GET,https://nifetrends.vercel.app/assets/index-ByTW5phP.js,304,Not Modified,250,207,0,Low,false,
+Processed,47,Fri Apr 25 15:54:43 WAT 2025,GET,https://nifetrends.vercel.app/assets/index-B3TRo-CP.css,304,Not Modified,258,207,0,Low,false,
+Processed,48,Fri Apr 25 15:54:43 WAT 2025,GET,https://checkout.flutterwave.com/v3.js,304,Not Modified,317,410,0,Low,false,
+Out of Scope,49,Fri Apr 25 15:54:43 WAT 2025,GET,https://checkout-v3-ui-prod.f4b-flutterwave.com/,403,Forbidden,0,130,40,,false,
+Out of Scope,50,Fri Apr 25 15:54:43 WAT 2025,GET,https://nifetrends.onrender.com/api/product/list,403,Forbidden,0,130,40,,false,
+Processed,51,Fri Apr 25 15:54:43 WAT 2025,GET,https://nifetrends.vercel.app/assets/lol-DRqJDnHx.png,304,Not Modified,266,207,0,Low,false,
+Out of Scope,52,Fri Apr 25 15:54:43 WAT 2025,GET,https://checkout.paystack.com/popup,403,Forbidden,0,130,40,,false,
+Processed,53,Fri Apr 25 15:54:43 WAT 2025,GET,https://paystack.com/public/css/button.min.css,403,Forbidden,777,1595,8152,Medium,false,Script
+Out of Scope,54,Fri Apr 25 15:54:45 WAT 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=query-stripping&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Out of Scope,55,Fri Apr 25 15:54:45 WAT 2025,GET,https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?collection=fingerprinting-protection-overrides&bucket=main&_expected=0,403,Forbidden,0,130,40,,false,
+Processed,56,Fri Apr 25 15:54:45 WAT 2025,GET,https://nifetrends.vercel.app/assets/hero_img-DOCOb6wn.png,200,OK,1935,535,816589,Medium,false,Comment
+Out of Scope,57,Fri Apr 25 15:54:47 WAT 2025,POST,https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=128.7&pver=2.2,403,Forbidden,0,130,40,,false,
+Processed,58,Fri Apr 25 15:54:51 WAT 2025,GET,http://nifetrends.vercel.app/4085537642803794773,308,Permanent Redirect,511,204,14,,false,
+Processed,59,Fri Apr 25 15:54:51 WAT 2025,GET,https://nifetrends.vercel.app/4085537642803794773,200,OK,301,536,591,Medium,false,Script
+Processed,60,Fri Apr 25 15:54:52 WAT 2025,GET,https://nifetrends.vercel.app/assets/index-ByTW5phP.js,304,Not Modified,370,207,0,Low,false,
+Processed,61,Fri Apr 25 15:54:52 WAT 2025,GET,https://nifetrends.vercel.app/assets/index-B3TRo-CP.css,304,Not Modified,370,207,0,Low,false,
+Processed,62,Fri Apr 25 15:54:52 WAT 2025,GET,https://checkout.flutterwave.com/v3.js,200,OK,446,499,32366,Low,false,Comment
+Out of Scope,63,Fri Apr 25 15:54:52 WAT 2025,GET,https://checkout-v3-ui-prod.f4b-flutterwave.com/,403,Forbidden,0,130,40,,false,
+Out of Scope,64,Fri Apr 25 15:54:52 WAT 2025,GET,https://nifetrends.onrender.com/api/product/list,403,Forbidden,0,130,40,,false,
+Processed,65,Fri Apr 25 15:54:52 WAT 2025,GET,https://nifetrends.vercel.app/assets/lol-DRqJDnHx.png,304,Not Modified,303,207,0,Low,false,
+Out of Scope,66,Fri Apr 25 15:54:52 WAT 2025,GET,https://checkout.paystack.com/popup,403,Forbidden,0,130,40,,false,
+Processed,67,Fri Apr 25 15:54:52 WAT 2025,GET,https://nifetrends.vercel.app/vite.svg,200,OK,257,524,1497,Medium,false,
+Processed,68,Fri Apr 25 15:54:52 WAT 2025,GET,https://paystack.com/public/css/button.min.css,403,Forbidden,811,1595,8152,Medium,false,Script

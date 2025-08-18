@@ -1,0 +1,90 @@
+──(damil㉿H4CKTIVIST)-[~]
+└─$ nmap -sC -sV -Pn 162.144.53.131
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-06 16:04 WAT                                                                                                                          
+Nmap scan report for server.uniosun.edu.ng (162.144.53.131)                                                                                                                                 
+Host is up (0.28s latency).                                                                                                                                                                 
+Not shown: 986 closed tcp ports (reset)                                                                                                                                                     
+PORT     STATE    SERVICE  VERSION                                                                                                                                                          
+21/tcp   open     ftp      Pure-FTPd                                                                                                                                                        
+|_ssl-date: 2025-02-06T15:06:29+00:00; +41s from scanner time.                                                                                                                              
+| ssl-cert: Subject: commonName=server.uniosun.edu.ng                                                                                                                                       
+| Subject Alternative Name: DNS:server.uniosun.edu.ng                                                                                                                                       
+| Not valid before: 2024-09-21T00:00:00                                                                                                                                                     
+|_Not valid after:  2024-12-20T23:59:59                                                                                                                                                     
+22/tcp   open     ssh      OpenSSH 5.3 (protocol 2.0)                                                                                                                                       
+| ssh-hostkey:                                                                                                                                                                              
+|   1024 38:76:52:a8:31:f0:76:5d:f2:f1:fc:e7:b3:6e:af:15 (DSA)                                                                                                                              
+|_  2048 fc:79:28:1d:f8:74:e1:59:93:11:78:36:09:cd:79:74 (RSA)                                                                                                                              
+25/tcp   filtered smtp                                                                                                                                                                      
+26/tcp   open     smtp     Exim smtpd 4.95                                                                                                                                                  
+|_ssl-date: 2025-02-06T15:06:28+00:00; +42s from scanner time.
+| ssl-cert: Subject: commonName=server.uniosun.edu.ng
+| Subject Alternative Name: DNS:server.uniosun.edu.ng
+| Not valid before: 2024-12-21T20:27:13
+|_Not valid after:  2025-12-21T20:27:13
+| smtp-commands: server.uniosun.edu.ng Hello server.uniosun.edu.ng [102.89.83.74], SIZE 52428800, 8BITMIME, PIPELINING, PIPE_CONNECT, STARTTLS, HELP
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP
+53/tcp   open     domain   ISC BIND 9.8.2rc1 (RedHat Enterprise Linux 6)
+| dns-nsid: 
+|_  bind.version: 9.8.2rc1-RedHat-9.8.2-0.68.rc1.el6_10.8
+80/tcp   open     http     Apache httpd
+|_http-server-header: Apache
+|_http-title: Site doesn't have a title (text/html).
+110/tcp  open     pop3     Dovecot pop3d
+|_ssl-date: 2025-02-06T15:06:28+00:00; +41s from scanner time.
+| ssl-cert: Subject: commonName=server.uniosun.edu.ng
+| Subject Alternative Name: DNS:server.uniosun.edu.ng
+| Not valid before: 2024-12-21T20:27:13
+|_Not valid after:  2025-12-21T20:27:13
+|_pop3-capabilities: UIDL AUTH-RESP-CODE PIPELINING RESP-CODES CAPA SASL(PLAIN LOGIN) STLS USER TOP
+143/tcp  open     imap     Dovecot imapd
+|_imap-capabilities: LOGIN-REFERRALS OK ID NAMESPACE IDLE STARTTLS have listed Pre-login LITERAL+ ENABLE AUTH=PLAIN capabilities IMAP4rev1 more AUTH=LOGINA0001 SASL-IR post-login
+|_ssl-date: 2025-02-06T15:06:28+00:00; +42s from scanner time.
+| ssl-cert: Subject: commonName=server.uniosun.edu.ng
+| Subject Alternative Name: DNS:server.uniosun.edu.ng
+| Not valid before: 2024-12-21T20:27:13
+|_Not valid after:  2025-12-21T20:27:13
+443/tcp  open     ssl/http Apache httpd
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=uniosun.edu.ng
+| Subject Alternative Name: DNS:uniosun.edu.ng, DNS:www.uniosun.edu.ng
+| Not valid before: 2024-12-21T10:50:08
+|_Not valid after:  2025-03-21T10:50:07
+|_http-server-header: Apache
+|_http-title: Site doesn't have a title (text/html).
+465/tcp  open     ssl/smtp Exim smtpd 4.95
+|_ssl-date: 2025-02-06T15:06:25+00:00; +41s from scanner time.
+| ssl-cert: Subject: commonName=server.uniosun.edu.ng
+| Subject Alternative Name: DNS:server.uniosun.edu.ng
+| Not valid before: 2024-12-21T20:27:13
+|_Not valid after:  2025-12-21T20:27:13
+| smtp-commands: server.uniosun.edu.ng Hello server.uniosun.edu.ng [102.89.83.74], SIZE 52428800,
+|_ Commands supported: AUTH HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP
+587/tcp  open     smtp     Exim smtpd 4.95
+| smtp-commands: SMTP: EHLO 220-We do not authorize the use of this system to transport unsolicit
+|_220 and/or bulk e-mail.\x0D
+993/tcp  open     ssl/imap Dovecot imapd
+|_ssl-date: 2025-02-06T15:06:25+00:00; +41s from scanner time.
+| ssl-cert: Subject: commonName=server.uniosun.edu.ng
+| Subject Alternative Name: DNS:server.uniosun.edu.ng
+| Not valid before: 2024-12-21T20:27:13
+|_Not valid after:  2025-12-21T20:27:13
+|_imap-capabilities: LOGIN-REFERRALS OK ID NAMESPACE IDLE have listed Pre-login LITERAL+ ENABLE A
+995/tcp  open     ssl/pop3 Dovecot pop3d
+| ssl-cert: Subject: commonName=server.uniosun.edu.ng
+| Subject Alternative Name: DNS:server.uniosun.edu.ng
+| Not valid before: 2024-12-21T20:27:13
+|_Not valid after:  2025-12-21T20:27:13
+|_ssl-date: 2025-02-06T15:06:25+00:00; +41s from scanner time.
+|_pop3-capabilities: CAPA UIDL AUTH-RESP-CODE PIPELINING SASL(PLAIN LOGIN) TOP USER RESP-CODES
+3306/tcp open     mysql    MySQL (unauthorized)
+Service Info: OS: Linux; CPE: cpe:/o:redhat:enterprise_linux:6
+
+Host script results:
+|_clock-skew: mean: 41s, deviation: 0s, median: 40s
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 123.78 seconds
+
+

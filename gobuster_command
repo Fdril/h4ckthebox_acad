@@ -1,0 +1,9 @@
+gobuster dir -u 10.129.235.190 / -w /usr/share/seclists/Discovery/Web-Content/common.txt
+
+
+gobuster dir --url http://{target_ip} / --wordlist_location / directory-list-2.3-small.txt
+
+
+gobuster dir --url http://10.129.235.190/ --wordlist /usr/share/wordlists/seclists/Passwordsdarkweb2017-top10000.txt
+
+ 
